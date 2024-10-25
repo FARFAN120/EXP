@@ -1,0 +1,121 @@
+/* Estilos generales */
+body {
+    font-family: 'Caveat', cursive;
+    background-color: #F5F5F5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    background-color: #FFF;
+    padding: 20px;
+    border-bottom: 1px solid #CCC;
+}
+
+header h1 {
+    font-size: 58px;
+    font-weight: 400;
+    color: #444;
+    text-transform: lowercase;
+}
+
+/* Menú de navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 10px;
+}
+
+nav ul li {
+    font-size: 18px;
+    color: #444;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+
+nav ul li:hover {
+    color: #FF6347;
+}
+
+nav ul li.active {
+    color: #FF6347;
+    border-bottom: 2px solid #FF6347;
+}
+
+/* Estilo del artículo principal */
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 32px;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+/* Estilo del video */
+iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+    margin: 30px 0;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+/* Pie de página */
+footer {
+    padding: 30px 0;
+    background-color: #FFF;
+    border-top: 1px solid #CCC;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+.redes {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.redes li {
+    display: inline-block;
+}
+
+.redes i {
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+}
+
+.redes i:hover {
+    color: #FF6347;
+}

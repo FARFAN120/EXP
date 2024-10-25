@@ -1,0 +1,118 @@
+/* Estilo general */
+body {
+    font-family: 'Caveat', cursive;
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Encabezado */
+header {
+    padding: 30px 0;
+    border-bottom: 1px solid #CCC;
+    background-color: #fff;
+}
+
+.site-title {
+    font-size: 58px;
+    font-weight: 400;
+    font-family: 'Caveat', cursive;
+    color: #333;
+    margin: 0;
+    text-transform: lowercase;
+    letter-spacing: 0.2em;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #444;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.menu li a:hover {
+    color: #FF6347;
+}
+
+/* Contenido principal */
+main {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.image-container img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+article h2 {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+article p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+/* Estilo del ícono del artículo */
+.icon {
+    display: block;
+    margin: 20px auto;
+    max-width: 70px;
+}
+
+/* Pie de página */
+footer {
+    padding: 30px 0;
+    background-color: #FFF;
+    border-top: 1px solid #CCC;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin-bottom: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.redes {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.redes i {
+    font-size: 24px;
+    color: #333;
+    cursor: pointer;
+}
+
+.redes i:hover {
+    color: #FF6347;
+}

@@ -1,0 +1,116 @@
+/* Estilos generales */
+body {
+    font-family: 'Caveat', cursive;
+    background-color: #F5F5F5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    text-align: center;
+    background-color: #FFF;
+    padding: 20px;
+    border-bottom: 1px solid #CCC;
+}
+
+header h1 {
+    font-size: 58px;
+    font-weight: 400;
+    color: #444;
+    text-transform: lowercase;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 10px;
+}
+
+nav ul li {
+    font-size: 18px;
+    color: #444;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+
+nav ul li:hover {
+    color: #FF6347; 
+}
+
+nav ul li.active {
+    color: #FF6347;
+    border-bottom: 2px solid #FF6347;
+}
+
+/* Contenedor de galería */
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.gallery-item {
+    background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+}
+
+.gallery-item img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.gallery-item h2 {
+    font-size: 18px;
+    color: #666;
+    font-weight: 400;
+}
+
+/* Pie de página */
+footer {
+    padding: 30px 0;
+    background-color: #FFF;
+    border-top: 1px solid #CCC;
+    font-size: 14px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 10px;
+}
+
+.redes {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.redes i {
+    font-size: 24px;
+    color: #333;
+}
+
+.redes i:hover {
+    color: #FF6347;
+}
